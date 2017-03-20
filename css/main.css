@@ -1,0 +1,10 @@
+#left,#right{
+float:left;
+width:40%;
+}
+#footer{
+clear:left;
+}
+body>div{
+border:solid 2px;
+}
