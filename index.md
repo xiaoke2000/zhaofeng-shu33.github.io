@@ -8,9 +8,6 @@
 
 ### Profile
 
-My
-name
-is
 
 ------
 
@@ -30,13 +27,11 @@ is
 
 ### Experience
 
-Tsinghua University
-: *Undergraduate Student*
-  __2013-2017__
+Tsinghua University: *Undergraduate Student*
+__2013-2017__
 
-Graduate School at Shenzhen, Tsinghua University
-: *Phd Student*
-  __2018-__
+Graduate School at Shenzhen, Tsinghua University: *Phd Student*
+__2018-__
   
   
 ------
