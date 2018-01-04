@@ -3,7 +3,7 @@
 ## 2018/1/4
 
 ## IIS8.5 on Windows Server 2012
-This is a successful attempt to deploy django app on ISS.
+This is a successful attempt to deploy django app on IIS.
 
 ## Step
 
@@ -32,12 +32,12 @@ This is a successful attempt to deploy django app on ISS.
 </configuration>
 ```
 
-* create a website in ISS Manager
+* create a website in IIS Manager
 * unlock the `handler` if necessary, by default `handler` rewritting is invalid. We can unlock it by modifying
 `applicationHost.config` in `%windir%\system32\inetsrv\config\` with Notepad.   
 * django app `setting.debug=False`
-* add a virtual directory in ISS, pointing to the static root directory of django app
-* allow anonymous visit with app pool authentication, not ISS_USER authentication if necessary
+* add a virtual directory in IIS, pointing to the static root directory of django app
+* allow anonymous visit with app pool authentication, not IIS_USER authentication if necessary
 
 
 ## Issue remained
