@@ -1,5 +1,5 @@
 # Deploying VNC Server on Ubuntu
-## 2018年1月3日
+## 2018/1/3
 ## Server：Ubuntu 16.04 LTS
 
 ## install VNC
