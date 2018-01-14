@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Deploying_Wordpress_on_Windows_Server.md</title>
+    <link rel="stylesheet" href="../../css/github-markdown.css">
+    <style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
+  </head>
+  <article class="markdown-body">
+	<h1>
+<a id="user-content-deploying-django-on-windows-server" class="anchor" href="#deploying-django-on-windows-server" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploying Django on Windows Server</h1>
+<h2>
+<a id="user-content-2018114" class="anchor" href="#2018114" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2018/1/14</h2>
+<h2>
+<a id="user-content-version" class="anchor" href="#version" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Version</h2>
+<ul>
+<li>IIS8.5 on Windows Server 2012(x64)</li>
+<li>php-7.2.1</li>
+<li>mysql-5.7.20</li>
+<li>wordpress-4.9.1</li>
+</ul>
+<h2>
+<a id="user-content-step" class="anchor" href="#step" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step</h2>
+<ul>
+<li>download php zip file from official website and extract it to disk, add the <code>path_to_php_extract_dir/bin</code> to <code>sys_path</code>
+</li>
+<li>edit <code>php.ini</code> , change the following configurations:</li>
+</ul>
+<div class="highlight highlight-source-ini"><pre><span class="pl-c"><span class="pl-c">;</span> change the default data zone to local</span>
+<span class="pl-k">date.timezone</span> = <span class="pl-s"><span class="pl-pds">"</span>Asia/Shanghai<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">;</span> configure extension dir</span>
+<span class="pl-k">extension_dir</span> = <span class="pl-s"><span class="pl-pds">"</span>path_to_php_extension_dir<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">;</span> configure doc root</span>
+<span class="pl-k">doc_root</span> = <span class="pl-s"><span class="pl-pds">"</span>path_to_php_file_root_path<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">;</span> also comment out the following extension:</span>
+<span class="pl-k">extension</span> = curl
+<span class="pl-k">extension</span> = mysqli
+<span class="pl-k">extension</span> = pdo_mysql</pre></div>
+<ul>
+<li>download mysql zip file from official website and extract it to disk, add the <code>path_to_mysql_extract_dir/bin</code> to <code>sys_path</code>
+</li>
+<li>open cmd prompt and initialize the database by <code>mysqld --initialize</code>
+</li>
+</ul>
+<p>By doing so, a random password is generated for root user, and the password can be
+found at error log file.</p>
+<ul>
+<li>
+<p>open the database service by <code>mysqld</code></p>
+</li>
+<li>
+<p>close the database service by <code>mysqladmin -u root -p shutdown</code>, type the root user password and the service is stopped.</p>
+</li>
+<li>
+<p>create a database <code>XXX</code> and a new user <code>YYY</code> with full privilege on <code>XXX</code></p>
+</li>
+<li>
+<p>create a website in IIS Manager, edit the Module Mapping by mapping "*.php" to <code>FastCgiModule</code> with executable called <code>php-cgi.exe</code></p>
+</li>
+<li>
+<p>grant IIS_USER with appropriate privilege to avoid 401 error.</p>
+</li>
+<li>
+<p>download wordpress zip file from official website and extract it to disk.</p>
+</li>
+<li>
+<p>copy <code>wp-config-sample.php</code> to a new file <code>wp-config.php</code> and edit it as follows:</p>
+</li>
+</ul>
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">define</span>(<span class="pl-s"><span class="pl-pds">'</span>DB_NAME<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>XXX<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-c1">define</span>(<span class="pl-s"><span class="pl-pds">'</span>DB_USER<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>YYY<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-c1">define</span>(<span class="pl-s"><span class="pl-pds">'</span>DB_PASSWORD<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>password of YYY<span class="pl-pds">'</span></span>);</span>
+<span class="pl-s1"><span class="pl-c1">define</span>(<span class="pl-s"><span class="pl-pds">'</span>DB_HOST<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>allow only localhost connection to mysql<span class="pl-pds">'</span></span>);</span></pre></div>
+<h2>
+<a id="user-content-issue-remained" class="anchor" href="#issue-remained" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Issue remained</h2>
+<p>During this attempt, I did not configure mysql by <code>my.ini</code>, some default setting may be inappropriate, such as log file time_zone.</p>
+
+</article>
+</html>

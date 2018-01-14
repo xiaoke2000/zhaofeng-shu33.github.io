@@ -2,7 +2,10 @@
 ## Department of Electronics and Engineering, Graduate School at Shenzhen, Tsinghua University
 
 > [616545598@qq.com](mailto:616545598@qq.com)  
+
 > [personal](personal/index.html)
+
+> [public](public/index.html)
 
 ------
 

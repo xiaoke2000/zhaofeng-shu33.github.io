@@ -16,7 +16,7 @@
     
 ## close vnc-server service
     
-    vncserver -kill:[port_number]
+    vncserver -kill :[port_number]
 
 ## modify ~/.vnc/vncstartup configuration file
 
