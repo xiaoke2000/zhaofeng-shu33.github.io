@@ -3,7 +3,7 @@
 
 > [616545598@qq.com](mailto:616545598@qq.com)  
 
-> [personal](personal/index.html)
+<!-- > [personal](personal/index.html) -->
 
 > [public](public/index.html)
 
@@ -18,6 +18,7 @@
 
 * Web Front End Technology
 
+* Website Deployment
 -------
 
 ### Technical
