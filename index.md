@@ -17,8 +17,8 @@
 ### Skills
 
 * Web Front End Technology
-
 * Website Deployment
+
 -------
 
 ### Technical
