@@ -55,3 +55,47 @@
 
 > > [第八次作业](classical_mechanics_intro/第八次作业.xls)
 
+------
+
+# 2017年夏季学期pde数值解作业
+
+> 作业题目
+
+> > [第一次作业题目](pde_numerical/practice_ODE.pdf)
+
+> > [第二次作业题目](pde_numerical/practice1.pdf)
+
+> > [第三次作业题目](pde_numerical/practice2.pdf)
+
+> > [第四次作业题目](pde_numerical/practice4.pdf)
+
+> > [第五次作业题目](pde_numerical/practice5.pdf)
+
+> 作业解答
+
+> > [第一次作业解答](pde_numerical/simplectic.pdf)
+
+> > [第二次作业解答](pde_numerical/PDE_Numerical_One.pdf)
+
+> > [第三次作业解答](pde_numerical/PDE_Numerical_Two.pdf)
+
+> > [第四次作业解答](pde_numerical/PDE_Numerical_Four.pdf)
+
+> > [第五次作业解答](pde_numerical/PDE_Numerical_Five.pdf)
+
+------
+
+# 2017年夏季暑期实践弹塑性力学相关推导
+
+> 
+
+> > [elastoplastic](elastic_mechanics/elastoplastic.pdf)
+
+> > [neumann](elastic_mechanics/neumann.pdf)
+
+> > [symmetry](elastic_mechanics/symmetry.pdf)
+
+> > [femfoundation](elastic_mechanics/femfoundation.pdf)
+
+> > [sphericalExampleForPlasticity](elastic_mechanics/sphericalExampleForPlasticity.pdf)
+
