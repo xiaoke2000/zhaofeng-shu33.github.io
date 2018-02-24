@@ -5,6 +5,8 @@
 
 <!-- > [personal](personal/index.html) -->
 
+> [personal](personal/index.html)
+
 > [public](public/index.html)
 
 ------
