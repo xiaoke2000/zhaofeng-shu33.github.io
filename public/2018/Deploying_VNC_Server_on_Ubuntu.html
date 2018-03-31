@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Deploying_VNC_Server_on_Ubuntu.md</title>
-    <link rel="stylesheet" href="../../css/github-markdown.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>public</title>
+    <link rel="stylesheet" href="../css/github-markdown.css">
     <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -21,38 +22,95 @@
 </style>
   </head>
   <article class="markdown-body">
-	<h1>
-<a id="user-content-deploying-vnc-server-on-ubuntu" class="anchor" href="#deploying-vnc-server-on-ubuntu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploying VNC Server on Ubuntu</h1>
-<h2>
-<a id="user-content-201813" class="anchor" href="#201813" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2018/1/3</h2>
-<h2>
-<a id="user-content-serverubuntu-1604-lts" class="anchor" href="#serverubuntu-1604-lts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Server：Ubuntu 16.04 LTS</h2>
-<h2>
-<a id="user-content-install-vnc" class="anchor" href="#install-vnc" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>install VNC</h2>
-<pre><code>sudo apt-get install vnc4server
-</code></pre>
-<h2>
-<a id="user-content-install-gnome-desktop-environment" class="anchor" href="#install-gnome-desktop-environment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>install Gnome Desktop Environment</h2>
-<pre><code>sudo apt-get install gnome-panel
-</code></pre>
-<h2>
-<a id="user-content-start-vnc-server-service" class="anchor" href="#start-vnc-server-service" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>start vnc-server service</h2>
-<pre><code>vncserver
-</code></pre>
-<h2>
-<a id="user-content-close-vnc-server-service" class="anchor" href="#close-vnc-server-service" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>close vnc-server service</h2>
-<pre><code>vncserver -kill :[port_number]
-</code></pre>
-<h2>
-<a id="user-content-modify-vncvncstartup-configuration-file" class="anchor" href="#modify-vncvncstartup-configuration-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>modify ~/.vnc/vncstartup configuration file</h2>
-<p>Append the following to the last line</p>
-<div class="highlight highlight-source-shell"><pre>gnome-panel <span class="pl-k">&amp;</span>
-gnome-settings-daemon <span class="pl-k">&amp;</span>
-metacity <span class="pl-k">&amp;</span>
-nautilus <span class="pl-k">&amp;</span></pre></div>
-<h2>
-<a id="user-content-unnecessary-installation" class="anchor" href="#unnecessary-installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Unnecessary installation</h2>
-<p>gnome-core is unnecessary, but I install it.</p>
-
+	<h1>记录开发和研究的心得</h1>
+<blockquote>
+<blockquote>
+<p><a href="2018/Deploying_Django_on_Windows_Server.html">2018/Deploying_Django_on_Windows_Server</a></p>
+<p><a href="2018/Deploying_VNC_Server_on_Ubuntu.html">2018/Deploying_VNC_Server_on_Ubuntu</a></p>
+<p><a href="2018/Deploying_Wordpress_on_Windows_Server.html">2018/Deploying_Wordpress_on_Windows_Server</a></p>
+</blockquote>
+</blockquote>
+<hr />
+<h1>2016年夏天返乡支教“经典力学引论”相关资料</h1>
+<blockquote>
+<p>感想</p>
+<blockquote>
+<p><a href="classical_mechanics_intro/At the very ending of the temporary tutorial course presided by me.doc">At the very ending of the temporary tutorial course presided by me</a></p>
+<p><a href="classical_mechanics_intro/Economics of Education---Career Orientation.doc">Economics of Education---Career Orientation</a></p>
+<p><a href="classical_mechanics_intro/classical_mechanics_intro/On Olympic.doc">On Olympic</a></p>
+</blockquote>
+<p>给老师的话</p>
+<blockquote>
+<p><a href="classical_mechanics_intro/致王化典尊师.doc">致王化典尊师</a></p>
+<p><a href="classical_mechanics_intro/致马莉尊师.doc">致马莉尊师</a></p>
+</blockquote>
+<p>教案相关</p>
+<blockquote>
+<p><a href="classical_mechanics_intro/前三次课程回顾.doc">前三次课程回顾</a></p>
+<p><a href="classical_mechanics_intro/经典力学引论结业考试.doc">经典力学引论结业考试</a></p>
+<p><a href="classical_mechanics_intro/课程实施要求.doc">课程实施要求</a></p>
+<p><a href="classical_mechanics_intro/课程实施纲要修改版.doc">课程实施纲要修改版</a></p>
+</blockquote>
+<p>作业批改情况</p>
+<blockquote>
+<p><a href="classical_mechanics_intro/第一次作业.xls">第一次作业</a></p>
+<p><a href="classical_mechanics_intro/第二次作业.xls">第二次作业</a></p>
+<p><a href="classical_mechanics_intro/第二三次作业.xls">第二三次作业</a></p>
+<p><a href="classical_mechanics_intro/第三四次作业.xls">第三四次作业</a></p>
+<p><a href="classical_mechanics_intro/第四五次作业.xls">第四五次作业</a></p>
+<p><a href="classical_mechanics_intro/第五六次作业.xls">第五六次作业</a></p>
+<p><a href="classical_mechanics_intro/第七次作业.xls">第七次作业</a></p>
+<p><a href="classical_mechanics_intro/第八次作业.xls">第八次作业</a></p>
+</blockquote>
+</blockquote>
+<hr />
+<h1>2017年夏季学期pde数值解作业</h1>
+<blockquote>
+<p>作业题目</p>
+<blockquote>
+<p><a href="pde_numerical/practice_ODE.pdf">第一次作业题目</a></p>
+<p><a href="pde_numerical/practice1.pdf">第二次作业题目</a></p>
+<p><a href="pde_numerical/practice2.pdf">第三次作业题目</a></p>
+<p><a href="pde_numerical/practice4.pdf">第四次作业题目</a></p>
+<p><a href="pde_numerical/practice5.pdf">第五次作业题目</a></p>
+</blockquote>
+<p>作业解答</p>
+<blockquote>
+<p><a href="pde_numerical/simplectic.pdf">第一次作业解答</a></p>
+<p><a href="pde_numerical/PDE_Numerical_One.pdf">第二次作业解答</a></p>
+<p><a href="pde_numerical/PDE_Numerical_Two.pdf">第三次作业解答</a></p>
+<p><a href="pde_numerical/PDE_Numerical_Four.pdf">第四次作业解答</a></p>
+<p><a href="pde_numerical/PDE_Numerical_Five.pdf">第五次作业解答</a></p>
+</blockquote>
+</blockquote>
+<hr />
+<h1>2017年夏季暑期实践弹塑性力学相关推导</h1>
+<blockquote>
+<blockquote>
+<p><a href="elastic_mechanics/elastoplastic.pdf">elastoplastic</a></p>
+<p><a href="elastic_mechanics/neumann.pdf">neumann</a></p>
+<p><a href="elastic_mechanics/symmetry.pdf">symmetry</a></p>
+<p><a href="elastic_mechanics/femfoundation.pdf">femfoundation</a></p>
+<p><a href="elastic_mechanics/sphericalExampleForPlasticity.pdf">sphericalExampleForPlasticity</a></p>
+</blockquote>
+</blockquote>
+<hr />
+<h1>2017年秋季学期信息推断课程作业</h1>
+<table>
+<tr><td><a href="information_inference/iips1.pdf">第一次作业题目</a> </td>
+<td><a href="information_inference/Assignment1.pdf">第一次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips2.pdf">第二次作业题目</a> </td>
+<td><a href="information_inference/Assignment2.pdf">第二次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips3.pdf">第三次作业题目</a> </td>
+<td><a href="information_inference/Assignment3.pdf">第三次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips4.pdf">第四次作业题目</a> </td>
+<td><a href="information_inference/Assignment4.pdf">第四次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips5.pdf">第五次作业题目</a> </td>
+<td><a href="information_inference/Assignment5.pdf">第五次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips6.pdf">第六次作业题目</a> </td>
+<td><a href="information_inference/Assignment6.pdf">第六次作业解答</a> </td></tr>
+<tr><td><a href="information_inference/iips7.pdf">第七次作业题目</a> </td>
+<td><a href="information_inference/Assignment7.pdf">第七次作业解答</a> </td></tr>
+</table>
 </article>
 </html>
