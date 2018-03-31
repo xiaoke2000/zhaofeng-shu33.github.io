@@ -1,5 +1,5 @@
 <center>
-# 别生气
+# Happy thirty days
 ## 2018年3月30号完成
 
 大二那年<br/>
@@ -57,7 +57,7 @@ whom she liked maybe
 is dated by a boy<br/>
 whom I know nothing about
 
-
+你说<br/>
 不想出去<br/>
 门当户对<br/>
 是你的<br/>
@@ -76,8 +76,9 @@ hurt me
 烟消<br/>
 又云散
 
-only with you<br/>
-without worry<br/>
-and with me<br/>
-Happy thirty days
+每天的你<br/>
+每天的我<br/>
+忙忙碌碌<br/>
+开开心心<br/>
+<span style="color:#FF0080">Happy thirty days</span>
 <center>
