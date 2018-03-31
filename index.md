@@ -1,7 +1,7 @@
 # 赵丰
 ## Department of Electronics and Engineering, Graduate School at Shenzhen, Tsinghua University
 
-> [616545598@qq.com](mailto:616545598@qq.com)  
+> [616545598@qq.com](mailto:616545598@qq.com) 
 
 <!-- > [personal](personal/index.html) -->
 
@@ -37,14 +37,15 @@
 
 * Web Front End Technology
 * Website Deployment
+* LaTeX Macro programming
 
 -------
 
 ### Technical
 
-1. XML
-1. Javascript
-1. Jquery
+1. TeX
+1. JavaScript
+1. Python
 
 ------
 
