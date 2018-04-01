@@ -120,3 +120,20 @@
 <td><a href="information_inference/Assignment7.pdf">第七次作业解答</a> </td></tr>
 </table>
 
+------
+
+# 2017年秋季学期机器学习基础课程作业
+
+<table>
+<tr><td><a href="ml/Assignment1_update.pdf">第一次作业题目</a> </td>
+<td><a href="ml/Assignment1Task.pdf">第一次作业解答</a> </td></tr>
+<tr><td><a href="ml/Assignment2.pdf">第二次作业题目</a> </td>
+<td><a href="ml/Assignment2Task.pdf">第二次作业解答</a> </td></tr>
+<tr><td><a href="ml/IRLS_method.pdf">IRLS method</a> </td>
+<td></td></tr>
+<tr><td><a href="ml/Assignment3.pdf">第三次作业题目</a> </td>
+<td><a href="ml/Assignment3Task.pdf">第三次作业解答</a> </td></tr>
+<tr><td><a href="ml/Assignment4.pdf">第四次作业题目</a> </td>
+<td><a href="ml/Assignment4Task.pdf">第四次作业解答</a> </td></tr>
+</table>
+
