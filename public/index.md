@@ -137,3 +137,15 @@
 <td><a href="ml/Assignment4Task.pdf">第四次作业解答</a> </td></tr>
 </table>
 
+------
+
+# 2018年春季学期应用信息论讲义整理和课程作业
+
+<table>
+<tr><td><a href="info_theory/ch2.pdf">前两章讲义</a></td>
+<td><a href="info_theory/12.pdf">课后作业</a> </td>
+<td><a href="info_theory/Information_Theory_2017_Fall_HW1.pdf">额外题目</a> </td>
+<td><a href="info_theory/12extra.pdf">额外题目解答</a> </td>
+</tr>
+</table>
+
