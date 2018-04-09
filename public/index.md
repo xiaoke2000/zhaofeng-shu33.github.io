@@ -149,3 +149,14 @@
 </tr>
 </table>
 
+------
+
+# 2017年秋季学期现代信号处理作业（部分）、2018年春季学期统计信号处理讲义整理和课程作业
+<table>
+<tr>
+<td><a href="signal_processing/chapter2.pdf">第二章作业</a> </td>
+<td><a href="signal_processing/signal_detection.pdf">第一章讲义+作业</a></td>
+</tr>
+</table>
+
+
