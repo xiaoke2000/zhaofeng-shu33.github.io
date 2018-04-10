@@ -3,11 +3,12 @@
 
 > [616545598@qq.com](mailto:616545598@qq.com) 
 
-<!-- > [personal](personal/index.html) -->
 
 > [personal](personal/index.html)
 
 > [public](public/index.html)
+
+> [琐事](detail/index.html)
 
 ------
 
