@@ -8,6 +8,8 @@
 
 > > [2018/Deploying_Wordpress_on_Windows_Server](2018/Deploying_Wordpress_on_Windows_Server.html)
 
+> > [2018/Installing_HP_driver](2018/Installing_HP_driver.html)
+
 ------
 
 # 2016年夏天返乡支教“经典力学引论”相关资料
