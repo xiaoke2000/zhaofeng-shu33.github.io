@@ -1,4 +1,4 @@
-# Installing HP driver
+# Installing HP driver on Ubuntu
 
 ## 2018/4/11
 

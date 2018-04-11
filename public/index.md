@@ -8,7 +8,7 @@
 
 > > [2018/Deploying_Wordpress_on_Windows_Server](2018/Deploying_Wordpress_on_Windows_Server.html)
 
-> > [2018/Installing_HP_driver](2018/Installing_HP_driver.html)
+> > [2018/Installing_HP_driver_on_Ubuntu](2018/Installing_HP_driver_on_Ubuntu.html)
 
 ------
 
