@@ -15,6 +15,8 @@
 
 > > [2018/New_workstation_setup](2018/New_workstation_setup.html)
 
+> > [2018/Build_Miktex_on_Windows](2018/Build_Miktex_on_Windows.html)
+
 ------
 
 # 2016年夏天返乡支教“经典力学引论”相关资料
