@@ -166,6 +166,12 @@
 <td><a href="signal_processing/chapter2.pdf">第二章作业</a> </td>
 <td><a href="signal_processing/signal_detection.pdf">第一章讲义+作业</a></td>
 </tr>
+
+<tr>
+<td><a href="signal_processing/chapter3.pdf">第三章作业</a> </td>
+<td><a href="signal_processing/waveform_estimation.pdf">波形估计理论</a></td>
+</tr>
+
 </table>
 
 
