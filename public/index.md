@@ -161,17 +161,9 @@
 ------
 
 # 2017年秋季学期现代信号处理作业（部分）、2018年春季学期统计信号处理讲义整理和课程作业
-<table>
-<tr>
-<td><a href="signal_processing/chapter2.pdf">第二章作业</a> </td>
-<td><a href="signal_processing/signal_detection.pdf">第一章讲义+作业</a></td>
-</tr>
-
-<tr>
-<td><a href="signal_processing/chapter3.pdf">第三章作业</a> </td>
-<td><a href="signal_processing/waveform_estimation.pdf">波形估计理论</a></td>
-</tr>
-
-</table>
-
-
+| 讲义                                                       | 作业                                                      |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| [第二章作业](signal_processing/chapter2.pdf)                | [第一章讲义+作业](signal_processing/signal_detection.pdf)   |
+| [第三章作业](signal_processing/chapter3.pdf)                | [波形估计理论](signal_processing/waveform_estimation.pdf)   |
+| [信号检测](signal_processing/signal_detection.pdf)          | [参数估计](signal_processing/signal_estimation.pdf)        |
+| [连续Kalman滤波](signal_processing/kalman_continuous.pdf)   |                                                           |
