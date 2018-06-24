@@ -11,7 +11,7 @@ def parse_one_md_file(file_name):
     global template_st
     # read input file
     st2=open(file_name).read()
-    html_str=markdown.markdown(st2.decode('utf-8')).encode('utf-8')
+    html_str=markdown.markdown(st2.decode('utf-8'), extensions=['markdown.extensions.tables']).encode('utf-8')
     # get input file name
     file_name_without_suffix=file_name.split('/')[-1].split('.')[0]
     # replace {title}
