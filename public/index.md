@@ -160,14 +160,6 @@
 | [第七章笔记](info_theory/ch7.pdf) | [额外题组3](info_theory/Information_Theory_2017_Fall_HW3.pdf) + [解答](info_theory/4extra.pdf) |
 | [第八章笔记](info_theory/ch8.pdf) | [额外题组4](info_theory/Information_Theory_2017_Fall_HW4.pdf) + [解答](info_theory/6extra.pdf) |
 
-<table>
-<tr><td><a href="info_theory/ch2.pdf">前两章讲义</a></td>
-<td><a href="info_theory/12.pdf">课后作业</a> </td>
-<td><a href="info_theory/Information_Theory_2017_Fall_HW1.pdf">额外题目</a> </td>
-<td><a href="info_theory/12extra.pdf">额外题目解答</a> </td>
-</tr>
-</table>
-
 ------
 
 # 2017年秋季学期现代信号处理作业（部分）、2018年春季学期统计信号处理讲义整理和课程作业
