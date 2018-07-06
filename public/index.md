@@ -152,7 +152,7 @@
 
 | 笔记                              | 作业                                                         |
 | --------------------------------- | ------------------------------------------------------------ |
-| [前两章笔记](info_theroy/ch2.pdf) | [前两章作业](info_theory/12.pdf)                             |
+| [前两章笔记](info_theory/ch2.pdf) | [前两章作业](info_theory/12.pdf)                             |
 | [第三章笔记](info_theory/ch3.pdf) | [第三章作业](info_theory/3.pdf)                              |
 | [第四章笔记](ch4.pdf)             | [四五章作业](info_theory/45.pdf)                             |
 | [第五章笔记](info_theory/ch5.pdf) | [额外题组1](info_theory/Information_Theory_2017_Fall_HW1.pdf) + [解答](info_theory/12extra.pdf) |
