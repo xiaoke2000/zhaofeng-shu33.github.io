@@ -171,3 +171,8 @@
 | [连续Kalman滤波](signal_processing/kalman_continuous.pdf) | [非参数估计](signal_processing/non-parametric_estimation.pdf) |
 | [考试复习题](signal_processing/exam_prepare.pdf)          |                                                              |
 
+# 社工思考
+
+- [机器人主题支教](2018/robot_teaching.html)
+- [场务人员](2018/other_volunteer.html)
+
