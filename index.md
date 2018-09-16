@@ -37,7 +37,7 @@
 ### Skills
 
 * Web Front End Technology
-* Website Deployment
+* Python Scripting
 * LaTeX Macro programming
 
 -------
@@ -57,7 +57,6 @@ __2013-2017__
 
 Graduate School at Shenzhen, Tsinghua University: *Phd Student*
 __2018-__
-  
-  
+
 ------
 
