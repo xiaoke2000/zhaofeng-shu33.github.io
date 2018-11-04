@@ -18,7 +18,8 @@ Update Symbols.
 ## Nov. 1st Night Planning
 1. configuration for locally build for linux, travis ci build for linux for PSP
 1. Learn webhook technology
-1. Install Ubuntu 18.04 on USB
+1. Install Ubuntu 18.10 on USB
 
-## Nov 4th Afternoon Planning
+## Nov. 4th Afternoon Planning
 1. Understanding why `conda search environment` takes so much time.
+1. Package `wget` python package to `conda-forge`.
